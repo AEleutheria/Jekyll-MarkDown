@@ -1,0 +1,16 @@
+# Site configuration
+
+# You can edit the title, description and add / remove the social links
+
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:title/
+baseurl:
+
+title: TITLE
+description: DESCRIPTION ABOUT THE SITE
+
+github: username
+codepen: username
+twitter: username
+facebook: username

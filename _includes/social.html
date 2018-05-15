@@ -1,0 +1,30 @@
+<ul>
+	{% if site.github %}
+	<li>
+		<a href="https://github.com/{{ site.github }}">
+			<i data-icon="github"></i>
+		</a>
+	</li>
+	{% endif %}
+	{% if site.codepen %}
+	<li>
+		<a href="https://codepen.io/{{ site.codepen }}">
+			<i data-icon="codepen"></i>
+		</a>
+	</li>
+	{% endif %}
+	{% if site.twitter %}
+	<li>
+		<a href="https://twitter.com/{{ site.twitter }}">
+			<i data-icon="twitter"></i>
+		</a>
+	</li>
+	{% endif %}
+	{% if site.facebook %}
+	<li>
+		<a href="https://facebook.com/{{ site.facebook }}">
+			<i data-icon="facebook"></i>
+		</a>
+	</li>
+	{% endif %}
+</ul>
